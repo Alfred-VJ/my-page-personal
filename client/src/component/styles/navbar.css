@@ -1,16 +1,15 @@
 .content__nav {
-    padding-bottom: 5%;
+    padding-bottom: .1%;
+    background-color: #233942;
 }
 
 .navbar_content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
     width: 100%;
     height: 12vh;
-    background: rgb(233, 255, 255);
-    background: linear-gradient(0deg, rgba(233, 255, 255, 1) 28%, rgba(255, 255, 255, 1) 75%);
+    background: linear-gradient(0deg, rgb(6, 11, 31) 28%, rgb(0, 0, 0) 75%);
     box-shadow: 1px 1px 30px 1px rgba(136, 242, 250, 0.603);
 }
 
@@ -18,6 +17,10 @@
     color: #13678A;
     font-size: 150%;
     animation: salto 1.5s linear;
+}
+
+.logo_nabvar{
+    width: 18%;
 }
 
 @keyframes salto {
@@ -53,6 +56,38 @@
         font-size: 200%;
     }
 }
+
+@media(min-width:430px) {
+    .logo_nabvar{
+        width: 15%;
+    }
+}
+@media(min-width:530px) {
+    .logo_nabvar{
+        width: 12%;
+    }
+}
+@media(min-width:630px) {
+    .logo_nabvar{
+        width: 10%;
+    }
+}
+@media(min-width:780px) {
+    .logo_nabvar{
+        width: 8%;
+    }
+}
+@media(min-width:880px) {
+    .logo_nabvar{
+        width: 7%;
+    }
+}
+@media(min-width:1024px) {
+    .logo_nabvar{
+        width: 5.5%;
+    }
+}
+
 
 /* 
 Para el responsiv utilizaremos mediaqueris
