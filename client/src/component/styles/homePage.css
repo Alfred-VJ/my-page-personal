@@ -25,6 +25,11 @@ font-family: 'Shadows Into Light', cursive;
     background: linear-gradient(214deg, #091e42 0%, #0c285a 51%, rgb(9, 21, 36) 100%);
     margin: 10% 0 0 0;
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .lateral_page {
@@ -40,7 +45,7 @@ font-family: 'Shadows Into Light', cursive;
     width: 80%;
     height: 80vh;
     background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #091e42 0%, #0c285a 51%, rgb(9, 21, 36) 100%);
+    background: linear-gradient(214deg, #576172 0%, #dfe3e9 51%, rgb(255, 255, 255) 100%);
     margin: 10% 0 0 0;
     border-radius: 20px;
 }
@@ -49,9 +54,14 @@ font-family: 'Shadows Into Light', cursive;
     width: 80%;
     height: 80vh;
     background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #70311a 0%, #FF7A48 51%, #E3371E 100%);
+    background: linear-gradient(214deg, #024255 0%, #0593A2 51%, #01515a 100%);
     margin: 10% 0 0 0;
     border-radius: 20px;
+}
+
+.photo_home{
+    border-radius: 25px;
+    width: 50%;
 }
 
 /* .h1_home {
