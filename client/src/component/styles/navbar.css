@@ -1,4 +1,9 @@
 .content__nav {
+    position: fixed; /* Fijar la posición */
+    top: 0; /* Ajustar a la parte superior de la página */
+    left: 0; /* Ajustar al margen izquierdo de la página */
+    width: 100%; /* Ocupar todo el ancho de la página */
+    z-index: 1; /* Asegurar que se encuentra encima de otros elementos */
     padding-bottom: .1%;
     background-color: #233942;
 }
