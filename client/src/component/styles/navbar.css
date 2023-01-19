@@ -12,12 +12,13 @@
     justify-content: space-around;
     align-items: center;
     height: 12vh;
-    background: linear-gradient(0deg, rgba(0, 174, 255, 0.041) 28%, rgba(255, 255, 255, 0.041) 75%);
+    background: linear-gradient(0deg, rgba(0, 174, 255, 0.089) 28%, rgba(255, 255, 255, 0.116) 75%);
     box-shadow: .5px .5px 15px .5px rgba(136, 242, 250, 0.027);
 }
 
 .icon_navbar {
-    color: #ffbb00;
+    color: #cdfdf9;
+    box-shadow: inset 1px 1px 15px 1px #0066ff, 2px 1px 10px 1px #0066ff, -2px 1px 10px 1px #0066ff;
     font-size: 150%;
     animation: salto 1.5s linear;
 }

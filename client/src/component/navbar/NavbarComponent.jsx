@@ -4,6 +4,7 @@ import { TfiGithub } from 'react-icons/tfi';
 import { BsLinkedin, BsYoutube } from 'react-icons/bs';
 import { FaFacebookSquare, FaWhatsappSquare } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import {ImMail} from 'react-icons/im'
 import logo from '../../assets/logo.png'
 
 const NavbarComponent = () => {
@@ -33,7 +34,7 @@ const NavbarComponent = () => {
                     <FaWhatsappSquare className='icon_navbar' />
                 </a>
                 <a rel="noreferrer" href={socialMedia.youtube} target="_blank">
-                    <SiGmail className='icon_navbar' />
+                    <ImMail className='icon_navbar' />
                 </a>
             </div>
         </div>
