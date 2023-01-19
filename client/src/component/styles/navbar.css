@@ -106,7 +106,7 @@
     }
   }
 
-  @media only screen and (min-width: 750px) and (max-width: 980px) and (orientation: landscape) {
+  @media only screen and (min-width: 680px) and (max-width: 980px) and (orientation: landscape) {
     /* Estilos para dispositivos móviles en orientación horizontal */
     .navbar_content {
         height: 15vh;
