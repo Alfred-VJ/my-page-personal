@@ -1,3 +1,349 @@
-.content_grid_home{
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+
+
+/* Continua así para cada elemento del grid */
+
+
+/*------------------------------------------------------------*/
+
+.content_grid_home {
     position: absolute;
+    top: 12%;
+    /* left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;  */
+    width: 100%;
+    background-image: url('../../assets/fondo-page-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define las animaciones
+@keyframes moveFromLeft {
+    from {left: -100px;}
+    to {left: 0;}
+  }
+  @keyframes moveFromRight {
+    from {right: -100px;}
+    to {right: 0;}
+  }
+  @keyframes moveFromTop {
+    from {top: -100px;}
+    to {top: 0;}
+  }
+  @keyframes moveFromBottom {
+    from {bottom: -100px;}
+    to {bottom: 0;}
+  } */
+
+
+.grid-item {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.grid-color-0 {
+    background-color: #0a2a5e00;
+}
+
+.grid-color-1 {
+    background-color: #87cfeb34;
+    animation: slide-in 1s forwards;
+}
+
+.grid-color-2 {
+    background-color: #522b0c67;
+    animation: slide-in2 1.5s forwards;
+}
+
+.grid-color-3 {
+    background-color: #0b68863a;
+    animation: slide-in3 1.2s forwards;
+}
+
+.grid-color-4 {
+    background-color: #ffa07a00;
+}
+
+.grid-color-5 {
+    background-color: #ff634700;
+}
+
+.grid-color-6 {
+    background-color: #f3ff4f4b;
+    animation: slide-in6 2s forwards;
+}
+
+.grid-color-7 {
+    background-color: #00000054;
+    animation: slide-in7 2s forwards;
+}
+
+.grid-color-8 {
+    background-color: #80808000;
+}
+
+.grid-color-9 {
+    background-color: #c50b1b56;
+    animation: slide-in9 2s forwards;
+}
+
+.grid-color-10 {
+    background-color: #3c0c4283;
+    animation: slide-in10 2s forwards;
+}
+
+.grid-color-11 {
+    background-color: #b8bb0c46;
+    animation: slide-in11 2.5s forwards;
+}
+
+.btn {
+    position: absolute;
+    z-index: 1;
+    top: 46%;
+    font-size: 10px;
+    left: 5%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    color: #fff;
+    animation: border-color-change 5s infinite, shine 5s infinite linear, slide-btn 3s forwards;
+}
+
+ .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 22%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, white, transparent);
+    animation: pulse 5s infinite linear;
+}
+
+
+
+/* Key frames*/
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-100%);
+        background-color: #00b7ff;
+    }
+
+    to {
+        transform: translateY(0%);
+        background-color: #87cfeb34;
+    }
+}
+
+@keyframes slide-in2 {
+    from {
+        transform: translateY(500%);
+        background-color: #ff7300;
+    }
+
+    to {
+        transform: translateY(0%);
+        background-color: #522b0c67;
+    }
+}
+
+@keyframes slide-in3 {
+    from {
+        transform: translateX(100%);
+        background-color: #0329ff;
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: #0b68863a;
+    }
+}
+
+@keyframes slide-in6 {
+    from {
+        transform: translateX(-300%);
+        background-color: #eeff00;
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: #f3ff4f4b;
+    }
+}
+
+@keyframes slide-in7 {
+    from {
+        transform: translateY(-100%);
+        background-color: #000000;
+    }
+
+    to {
+        transform: translateY(0%);
+        background-color: #00000054;
+    }
+}
+
+@keyframes slide-in9 {
+    from {
+        transform: translateX(300%);
+        background-color: #e70000;
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: #c50b1b56;
+    }
+}
+
+@keyframes slide-in10 {
+    from {
+        transform: translateY(500%);
+        background-color: #e100ff;
+    }
+
+    to {
+        transform: translateY(0%);
+        background-color: #3c0c4283;
+    }
+}
+
+@keyframes slide-in11 {
+    from {
+        transform: translateX(-300%);
+        background-color: #fbff00;
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: #b8bb0c46;
+    }
+}
+
+@keyframes border-color-change {
+    0% {
+        border-color: #fff;
+        /* start with white color */
+    }
+
+    20% {
+        border-color: #ff0000;
+        /* change to red */
+    }
+
+    40% {
+        border-color: #00ff00;
+        /* change to green */
+    }
+
+    60% {
+        border-color: #0000ff;
+        /* change to blue */
+    }
+
+    80% {
+        border-color: #ff00ff;
+        /* change to purple */
+    }
+
+    100% {
+        border-color: #fff;
+        /* go back to white color */
+    }
+}
+
+@keyframes pulse {
+    0% {
+        left: -250%;
+        opacity: 0;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    58% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes slide-btn {
+    from {
+        transform: translateX(-100%);
+        background-color: rgb(251, 255, 0);
+    }
+
+    to {
+        transform: translateX(0%);
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+/* Media querys*/
+
+@media (min-width: 555px) {
+    /* Estilos para pantallas con un ancho mínimo de 555px */
+    .btn{
+        font-size: 14px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    /* Estilos para pantallas con un ancho mínimo de 1024px */
+    .btn{
+        font-size: 20px;
+        left: 8%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    /* Estilos para pantallas con un ancho mínimo de 1024px */
+    .btn{
+        font-size: 20px;
+        left: 14%;
+    }
+
+    .content_grid_home {
+    height: 80vh;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 26.7vh);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  }
+
+  
+

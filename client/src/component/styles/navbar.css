@@ -4,15 +4,13 @@
     left: 0; /* Ajustar al margen izquierdo de la página */
     width: 100%; /* Ocupar todo el ancho de la página */
     z-index: 1; /* Asegurar que se encuentra encima de otros elementos */
-    padding-bottom: .1%;
-    background-color: #233942;
 }
 
 .navbar_content {
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     height: 12vh;
     background: linear-gradient(0deg, rgb(6, 11, 31) 28%, rgb(0, 0, 0) 75%);
     box-shadow: 1px 1px 30px 1px rgba(136, 242, 250, 0.603);
@@ -93,6 +91,34 @@
     }
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 680px) and (orientation: landscape) {
+    /* Estilos para dispositivos móviles en orientación horizontal */
+    .navbar_content {
+        height: 15vh;
+    }
+    .icon_navbar {
+        font-size: 100%;
+    }
+    
+    .logo_nabvar{
+        width: 10%;
+    }
+  }
+
+  @media only screen and (min-width: 750px) and (max-width: 980px) and (orientation: landscape) {
+    /* Estilos para dispositivos móviles en orientación horizontal */
+    .navbar_content {
+        height: 15vh;
+    }
+    .icon_navbar {
+        font-size: 100%;
+    }
+    
+    .logo_nabvar{
+        width: 5%;
+    }
+  }
 
 /* 
 Para el responsiv utilizaremos mediaqueris

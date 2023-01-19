@@ -10,67 +10,33 @@ font-family: 'Shadows Into Light', cursive;
 
 
 .content_page {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgb(20, 76, 171);
-    background: radial-gradient(circle, rgba(20, 76, 171, 1) 0%, rgba(15, 6, 98, 1) 61%, rgba(22, 63, 111, 1) 100%);
+
 }
 
 .contenido_page {
-    width: 80%;
-    height: 80vh;
-    background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #091e42 0%, #0c285a 51%, rgb(9, 21, 36) 100%);
-    margin: 10% 0 0 0;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  
 }
 
 .lateral_page {
-    width: 80%;
-    height: 80vh;
-    background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #70311a 0%, #FF7A48 51%, #E3371E 100%);
-    margin: 10% 0 0 0;
-    border-radius: 20px;
+  
 }
 
 .contenido_page2 {
-    width: 80%;
-    height: 80vh;
-    background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #576172 0%, #dfe3e9 51%, rgb(255, 255, 255) 100%);
-    margin: 10% 0 0 0;
-    border-radius: 20px;
+
 }
 
 .lateral_page2 {
-    width: 80%;
-    height: 80vh;
-    background: rgb(15, 16, 71);
-    background: linear-gradient(214deg, #024255 0%, #0593A2 51%, #01515a 100%);
-    margin: 10% 0 0 0;
-    border-radius: 20px;
+    position: relative;
+    text-align: center;
 }
 
 .photo_home{
-    border-radius: 25px;
-    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
 }
 
-/* .h1_home {
-    text-align: center;
-    font-family: 'Lilita One', cursive;
-    margin: 0 18px;
-    background: linear-gradient(to right top,
-            #4B68BF, #5EBFB5, #F28907, #A65D05, #F20707);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-} */

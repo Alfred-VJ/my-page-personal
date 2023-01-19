@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "react-animations": "^1.0.0",
+    "react-native": "^0.71.0",
+    "react-transition-group": "^4.4.5"
+  }
+}
