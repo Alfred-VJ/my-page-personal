@@ -124,16 +124,7 @@
     animation: border-color-change 5s infinite, shine 5s infinite linear, slide-btn 3s forwards;
 }
 
- .btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 22%;
-    height: 100%;
-    background: linear-gradient(to right, transparent, white, transparent);
-    animation: pulse 5s infinite linear;
-}
+
 
 
 
@@ -267,33 +258,6 @@
     }
 }
 
-@keyframes pulse {
-    0% {
-        left: -250%;
-        opacity: 0;
-    }
-
-    55% {
-        opacity: 0;
-    }
-
-    58% {
-        opacity: 1;
-    }
-
-    70% {
-        opacity: 1;
-    }
-
-    74% {
-        opacity: 0;
-    }
-
-    100% {
-        left: 200%;
-        opacity: 0;
-    }
-}
 
 @keyframes slide-btn {
     from {
