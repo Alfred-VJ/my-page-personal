@@ -1,0 +1,20 @@
+.img_background{
+    position: absolute;
+    top: 42.5736%;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1;
+}
+
+@media (min-width: 1024px){
+    .img_background{
+        top: 80%;
+    }
+}
+
+@media (min-width: 1424px){
+    .img_background{
+        top: 80%;
+    }
+}
