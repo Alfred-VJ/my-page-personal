@@ -11,11 +11,11 @@ const GridHome = () => {
                 <div class="grid-item grid-color-1"></div>
                 <div class="grid-item grid-color-2"></div>
                 <div class="grid-item grid-color-3"></div>
-                <div class="grid-item grid-color-4">
-                    <button className='btn'>View my briefcase</button>
-                </div>
+                <div class="grid-item grid-color-4"></div>
                 <div class="grid-item grid-color-5"></div>
-                <div class="grid-item grid-color-6"></div>
+                <div class="grid-item grid-color-6">
+                <button className='btn'>View my briefcase</button>
+                </div>
                 <div class="grid-item grid-color-7"></div>
                 <div class="grid-item grid-color-8"></div>
                 <div class="grid-item grid-color-9"></div>

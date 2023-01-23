@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { TfiGithub } from 'react-icons/tfi';
 import { BsLinkedin, BsYoutube } from 'react-icons/bs';
 import { FaFacebookSquare, FaWhatsappSquare } from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
 import {ImMail} from 'react-icons/im'
 import logo from '../../assets/logo.png'
 
