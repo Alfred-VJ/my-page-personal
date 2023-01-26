@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       <NavbarComponent />
       <HomePage />
-     <div>
-         <img src={backGround} alt="" className='img_background'/>
-     </div>
     </div>
   );
 }

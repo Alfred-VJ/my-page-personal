@@ -9,34 +9,5 @@ font-family: 'Shadows Into Light', cursive;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Just+Me+Again+Down+Here&family=Lilita+One&family=Lobster&family=Shadows+Into+Light&display=swap');
 
 
-.content_page {
 
-}
-
-.contenido_page {
-  
-}
-
-.lateral_page {
-  
-}
-
-.contenido_page2 {
-
-}
-
-.lateral_page2 {
-    position: relative;
-    text-align: center;
-}
-
-.photo_home{
-    position: absolute;
-    /* top: 50%; */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 50%;
-    height: auto;
-    border-radius: 20px;
-}
 

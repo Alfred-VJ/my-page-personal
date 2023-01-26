@@ -1,0 +1,60 @@
+.content_skill{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 110vh;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .first-column {
+   
+    background: rgb(71, 34, 34);
+    border: solid rgba(255, 255, 255, 0.781);
+    background-image: linear-gradient(225deg, #d950cf 0, #e646be 6.25%, #f13cad 12.5%, #f8359c 18.75%, #fd318a 25%, #ff3179 31.25%, #ff3668 37.5%, #fd3d57 43.75%, #f94646 50%, #f35035 56.25%, #eb5923 62.5%, #e1630b 68.75%, #d76c00 75%, #ca5b00 81.25%, #bd4c00 87.5%, #af4f00 93.75%, #a04800 100%);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vh;
+    border-radius: 0 150px 100px 0;
+    margin-left: -3px;
+    width: 100px;
+  }
+  
+  .second-column {
+  
+  }
+
+  .h6_list{
+    color: #ffffff; /* color negro */
+    text-shadow: 3px 3px 4px #000000; /* sombra blanca */
+    margin-left: 15px;
+  }
+  
+  .img_list{
+    position: absolute;
+    margin-left: 35%;
+    width: 55%;
+    /* top: 36vh; */
+    height: 37vh;
+    padding: 10px;
+   background-color: #000000;
+    
+    background-image: url('../../../assets/cruzados-brazos.png');
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  
+
+  

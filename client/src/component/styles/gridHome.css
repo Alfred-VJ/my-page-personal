@@ -1,4 +1,16 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Just+Me+Again+Down+Here&family=Lilita+One&family=Lobster&family=Shadows+Into+Light&display=swap');
+
+
+
+
 
 
 
@@ -19,12 +31,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 28vh;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, 9.35vh);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -124,6 +137,8 @@
     padding: 10px 20px; 
     color: #fff;
     animation: border-color-change 5s infinite, shine 5s infinite linear, slide-btn 3s forwards;
+    font-family: 'Lobster', cursive;
+    font-size: 14px;
 }
 
 
@@ -281,6 +296,13 @@
         font-size: 14px;
         left: 60%;
     }
+    .content_grid_home {
+        height: 34vh;
+    }
+    
+    .grid-container {
+        grid-template-rows: repeat(3, 11.35vh);
+    }
   }
 
   @media (min-width: 700px) {
@@ -289,6 +311,13 @@
         font-size: 16px;
         left: 65%;
     }
+    .content_grid_home {
+        height: 46vh;
+    }
+    
+    .grid-container {
+        grid-template-rows: repeat(3, 15.35vh);
+    }
   }
 
   @media (min-width: 900px) {
@@ -296,6 +325,13 @@
     .btn{
         font-size: 20px;
         left: 65%;
+    }
+    .content_grid_home {
+        height: 67vh;
+    }
+    
+    .grid-container {
+        grid-template-rows: repeat(3, 22.35vh);
     }
   }
 

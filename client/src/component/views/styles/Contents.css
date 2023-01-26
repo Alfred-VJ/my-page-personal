@@ -1,0 +1,62 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+.content_contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+
+    background-size: cover; /* para cubrir toda el area */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.322);
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* para posicionar la sombra */
+    overflow: hidden; /* para ocultar la sombra */
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255); /* sombra para dar efecto de hola */
+    z-index: -1;
+}
+
+
+/*-------------------*/
+.frase_content{
+width: 100%;
+/* margin-left: 5%; */
+display: flex;
+align-items: center;
+box-shadow: 0px 2px 8px rgb(0, 0, 0); /* sombra superior e inferior */
+}
+
+
+
+
+
+.frase_content h3{
+    text-align: center;
+    margin: 0 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.11);
+    background: linear-gradient(to right, #1900ff, #2a1caa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
